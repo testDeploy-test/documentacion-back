@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>schemas/auditoria_del_proceso.schema.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="Controllers.module_AQL_defectos_mayores.html">AQL_defectos_mayores</a><ul class='methods'><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~addAql">addAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~deleteAql">deleteAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~getAql">getAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~getOneAql">getOneAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~updateAql">updateAql</a></li></ul></li><li><a href="Controllers.module_auditoria_del_proceso.html">auditoria_del_proceso</a><ul class='methods'><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~addProcess">addProcess</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~deleteProcess">deleteProcess</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~getAllProcesses">getAllProcesses</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~getOneProcess">getOneProcess</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~updateProcess">updateProcess</a></li></ul></li><li><a href="Controllers.module_clientes.html">clientes</a><ul class='methods'><li data-type='method'><a href="Controllers.module_clientes.html#~addCustomer">addCustomer</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~deleteCustomer">deleteCustomer</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~getAllCustomers">getAllCustomers</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~getOneCustomer">getOneCustomer</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~updateCustomer">updateCustomer</a></li></ul></li><li><a href="Controllers.module_defectos.html">defectos</a><ul class='methods'><li data-type='method'><a href="Controllers.module_defectos.html#~addDefect">addDefect</a></li><li data-type='method'><a href="Controllers.module_defectos.html#~getAllDefects">getAllDefects</a></li><li data-type='method'><a href="Controllers.module_defectos.html#~getOneDefect">getOneDefect</a></li><li data-type='method'><a href="Controllers.module_defectos.html#~updateDefect">updateDefect</a></li></ul></li><li><a href="Controllers.module_formato_auditoria.html">formato_auditoria</a><ul class='methods'><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~addAudit">addAudit</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~deleteAudit">deleteAudit</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~getAllAudits">getAllAudits</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~getOneAudit">getOneAudit</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~updateAudit">updateAudit</a></li></ul></li><li><a href="Controllers.module_items.html">items</a><ul class='methods'><li data-type='method'><a href="Controllers.module_items.html#~addItem">addItem</a></li><li data-type='method'><a href="Controllers.module_items.html#~deleteItem">deleteItem</a></li><li data-type='method'><a href="Controllers.module_items.html#~getAllItems">getAllItems</a></li><li data-type='method'><a href="Controllers.module_items.html#~getOneItem">getOneItem</a></li><li data-type='method'><a href="Controllers.module_items.html#~updateItem">updateItem</a></li></ul></li><li><a href="Controllers.module_pedido_item.html">pedido_item</a><ul class='methods'><li data-type='method'><a href="Controllers.module_pedido_item.html#~addOrderSchema">addOrderSchema</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~deleteOrderitem">deleteOrderitem</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~getAllOrdersItems">getAllOrdersItems</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~getOneOrderitem">getOneOrderitem</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~updateOrderItem">updateOrderItem</a></li></ul></li><li><a href="Controllers.module_pedidos.html">pedidos</a><ul class='methods'><li data-type='method'><a href="Controllers.module_pedidos.html#~addOrder">addOrder</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~deleteOrder">deleteOrder</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~getAllOrders">getAllOrders</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~getOneOrder">getOneOrder</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~updateOrder">updateOrder</a></li></ul></li><li><a href="Controllers.module_proceso_defecto.html">proceso_defecto</a><ul class='methods'><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~addProcessDefect">addProcessDefect</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~deleteProcessDefect">deleteProcessDefect</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~getAllProcessesDefects">getAllProcessesDefects</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~getOneProcessDefect">getOneProcessDefect</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~updateProcessDefect">updateProcessDefect</a></li></ul></li><li><a href="Controllers.module_tecnologias.html">tecnologias</a><ul class='methods'><li data-type='method'><a href="Controllers.module_tecnologias.html#~addTechnology">addTechnology</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~deleteTechnology">deleteTechnology</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~getAllTechnologies">getAllTechnologies</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~getOneTechnology">getOneTechnology</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~updateTechnology">updateTechnology</a></li></ul></li><li><a href="Controllers.module_usuarios.html">usuarios</a><ul class='methods'><li data-type='method'><a href="Controllers.module_usuarios.html#~addUser">addUser</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~deleteUser">deleteUser</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~getAllUsers">getAllUsers</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~getOneUser">getOneUser</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~updateUser">updateUser</a></li></ul></li><li><a href="module-Middleware.html">Middleware</a><ul class='methods'><li data-type='method'><a href="module-Middleware.html#.adminRequired">adminRequired</a></li><li data-type='method'><a href="module-Middleware.html#.userRequired">userRequired</a></li><li data-type='method'><a href="module-Middleware.html#.validateSchema">validateSchema</a></li></ul></li><li><a href="module-Models.html">Models</a></li><li><a href="module-Schemas.html">Schemas</a></li></ul><h3>Global</h3><ul><li><a href="global.html#auditQuery">auditQuery</a></li><li><a href="global.html#crateAccesToken">crateAccesToken</a></li><li><a href="global.html#customersQuery">customersQuery</a></li><li><a href="global.html#defectsQuery">defectsQuery</a></li><li><a href="global.html#itemsQuery">itemsQuery</a></li><li><a href="global.html#login">login</a></li><li><a href="global.html#logout">logout</a></li><li><a href="global.html#oiQuery">oiQuery</a></li><li><a href="global.html#orders">orders</a></li><li><a href="global.html#pdQuery">pdQuery</a></li><li><a href="global.html#processQuery">processQuery</a></li><li><a href="global.html#removeImage">removeImage</a></li><li><a href="global.html#sequelize">sequelize</a></li><li><a href="global.html#tables">tables</a></li><li><a href="global.html#technologiesQuery">technologiesQuery</a></li><li><a href="global.html#uploadImage">uploadImage</a></li><li><a href="global.html#usersQuery">usersQuery</a></li><li><a href="global.html#verify">verify</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">schemas/auditoria_del_proceso.schema.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import { z } from "zod";
+
+/**
+ * Data validation for the creation of a new `auditoria_del_proceso` table record.
+ * @typedef {Object} addProcessSchema
+ * @property {String} pnc - Unique code for the record ??
+ * @property {String} fecha_apertura - Star date.
+ * @property {Number} cantidad_rechazada - Amount that the customer rejected.
+ * @property {Number} defectos_encontrados - Number of defects found.
+ * @property {String} operario - Who did it.
+ * @property {String} accion - What was done.
+ * @property {String} aprobado_por - Who allowed it.
+ * @property {String} comentario_accion - Observation on what has been done.
+ * @property {Number} cantidad_descarte - Quantity discarded.
+ * @property {Number} cantidad_aceptada - Accepted quantity.
+ * @property {String} observacion - General observations.
+ * @property {String} fecha_cierre - End date.
+ * @property {String} re_auditoria - Is it necessary to perform another audit?
+ * @property {String} estado_re_auditoria - State of re-auditoria
+ * @property {Number} IDauditoria - Unique identifier for a record in the `formato_auditoria` table.
+ * @property {any} imagen - Evidence image 
+ * @memberof module:Schemas
+*/
+export const addProcessSchema = z.object({
+    pnc: z.string({
+        required_error: "#PNC is required.",
+        invalid_type_error: "#PNC must be a string."
+    }),
+
+    fecha_apertura: z.coerce.date({
+        required_error: "Fecha de apertura is required.",
+        invalid_type_error: "Fecha de apertura must be a date"
+    }),
+
+    cantidad_rechazada: z.number({
+        required_error: "Cantidad rechazada is required.",
+        invalid_type_error: "Cantidad rechazada must be a number",
+    }).nonnegative().int(),
+
+    defectos_encontrados: z.number({
+        required_error: "Cantidad de defecto encontrados is required.",
+        invalid_type_error: "Cantidad de defectos encontrados must be a number."
+    }).nonnegative().int(),
+
+    operario: z.string({
+        required_error: "Operario is required.",
+        invalid_type_error: "Operario must be a string."
+    }),
+    accion: z.string({
+        required_error: "Accion is required.",
+        invalid_type_error: "Accion must be a string."
+    }),
+    aprobado_por: z.string({
+        required_error: "Aprobado por is required.",
+        invalid_type_error: "Aprobado por must be a string."
+    }),
+
+    comentario_accion: z.string({
+        required_error: "Comentario de la accion is required.",
+        invalid_type_error: "Comentario de la accion must be a string."
+    }),
+
+    cantidad_descarte: z.number({
+        required_error: "Cantidad de descarte is required.",
+        invalid_type_error: "Cantidad de descarte must be a number."
+    }).nonnegative().int(),
+
+    cantidad_aceptada: z.number({
+        required_error: "Cantidad aceptada is required.",
+        invalid_type_error: "Cantidad aceptada must be a number."
+    }).nonnegative().int(),
+
+    observacion: z.string({
+        invalid_type_error: "Observacion must be a string."
+    }),
+
+    fecha_cierre: z.coerce.date({
+        required_error: "Fecha de cierre is required.",
+        invalid_type_error: "Fecha de cierre must be a date."
+    }),
+
+    re_auditoria: z.string({
+        required_error: "Re auditoria is required.",
+        invalid_type_error: "Re auditoria must be a string."
+    }),
+
+    estado_re_auditoria: z.string({
+        required_error: "Estado re auditoria is required.",
+        invalid_type_error: "Estado re auditoria must be a string."
+    }),
+
+    IDauditoria: z.number({
+        required_error: "IDauditoria is required.",
+        invalid_type_error: "IDauditoria must be a number."
+    }).positive().int(),
+
+    imagen: z.any().optional()
+});
+
+/**
+ * Data validation for the update of a new `auditoria_del_proceso` table entry.
+ * @typedef {Object} updateProcessSchema
+ * @property {String} [pnc] - Unique code for the record ??
+ * @property {String} [fecha_apertura] - Star date.
+ * @property {Number} [cantidad_rechazada] - Amount that the customer rejected.
+ * @property {Number} [defectos_encontrados] - Number of defects found.
+ * @property {String} [operario] - Who did it.
+ * @property {String} [accion] - What was done.
+ * @property {String} [aprobado_por] - Who allowed it.
+ * @property {String} [comentario_accion] - Observation on what has been done.
+ * @property {Number} [cantidad_descarte] - Quantity discarded.
+ * @property {Number} [cantidad_aceptada] - Accepted quantity.
+ * @property {String} [observacion] - General observations.
+ * @property {String} [fecha_cierre] - End date.
+ * @property {String} [re_auditoria] - Is it necessary to perform another audit?
+ * @property {String} [estado_re_auditoria] - State of re-auditoria
+ * @property {Number} [IDauditoria] - Unique identifier for a record in the `formato_auditoria` table.
+ * @property {any} [imagen] - Evidence image
+ * @memberof module:Schemas
+*/
+export const updateProcessSchema = z.object({
+    pnc: z.string({
+        invalid_type_error: "#PNC must be a string."
+    }).optional(),
+
+    fecha_apertura: z.coerce.date({
+        invalid_type_error: "Fecha de apertura must be a date."
+    }).optional(),
+
+    cantidad_rechazada: z.number({
+        invalid_type_error: "Cantidad rechazada must be a number."
+    }).nonnegative().int().optional(),
+
+    defectos_encontrados: z.number({
+        invalid_type_error: "Cantidad de defectos encontrados must be a number."
+    }).nonnegative().int().optional(),
+
+    operario: z.string({
+        invalid_type_error: "Operario must be a string."
+    }).optional(),
+
+    accion: z.string({
+        invalid_type_error: "Accion must be a string."
+    }).optional(),
+
+    aprobado_por: z.string({
+        invalid_type_error: "Aprobado por must be a string."
+    }).optional(),
+
+    comentario_accion: z.string({
+        invalid_type_error: "Comentario de la accion must be a string."
+    }).optional(),
+
+    cantidad_descarte: z.number({
+        invalid_type_error: "Cantidad de descarte must be a number."
+    }).nonnegative().int().optional(),
+
+    cantidad_aceptada: z.number({
+        invalid_type_error: "Cantidad aceptada must be a number."
+    }).nonnegative().int().optional(),
+
+    observacion: z.string({
+        invalid_type_error: "Observacion must be a string."
+    }).optional(),
+
+    fecha_cierre: z.coerce.date({
+        invalid_type_error: "Fecha de cierre must be a date."
+    }).optional(),
+
+    re_auditoria: z.string({
+        invalid_type_error: "Re auditoria must be a string."
+    }).optional(),
+
+    estado_re_auditoria: z.string({
+        invalid_type_error: "Estado de re auditoria must be a string."
+    }).optional(),
+
+    IDauditoria: z.number({
+        invalid_type_error: "IDauditoria must be a number."
+    }).positive().int().optional(),
+
+    imagen: z.any().optional()
+});</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.3</a> on Fri Jul 26 2024 12:09:46 GMT-0600 (hora estándar central) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>

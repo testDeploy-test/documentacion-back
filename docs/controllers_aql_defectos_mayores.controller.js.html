@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>controllers/aql_defectos_mayores.controller.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="Controllers.module_AQL_defectos_mayores.html">AQL_defectos_mayores</a><ul class='methods'><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~addAql">addAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~deleteAql">deleteAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~getAql">getAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~getOneAql">getOneAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~updateAql">updateAql</a></li></ul></li><li><a href="Controllers.module_auditoria_del_proceso.html">auditoria_del_proceso</a><ul class='methods'><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~addProcess">addProcess</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~deleteProcess">deleteProcess</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~getAllProcesses">getAllProcesses</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~getOneProcess">getOneProcess</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~updateProcess">updateProcess</a></li></ul></li><li><a href="Controllers.module_clientes.html">clientes</a><ul class='methods'><li data-type='method'><a href="Controllers.module_clientes.html#~addCustomer">addCustomer</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~deleteCustomer">deleteCustomer</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~getAllCustomers">getAllCustomers</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~getOneCustomer">getOneCustomer</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~updateCustomer">updateCustomer</a></li></ul></li><li><a href="Controllers.module_defectos.html">defectos</a><ul class='methods'><li data-type='method'><a href="Controllers.module_defectos.html#~addDefect">addDefect</a></li><li data-type='method'><a href="Controllers.module_defectos.html#~getAllDefects">getAllDefects</a></li><li data-type='method'><a href="Controllers.module_defectos.html#~getOneDefect">getOneDefect</a></li><li data-type='method'><a href="Controllers.module_defectos.html#~updateDefect">updateDefect</a></li></ul></li><li><a href="Controllers.module_formato_auditoria.html">formato_auditoria</a><ul class='methods'><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~addAudit">addAudit</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~deleteAudit">deleteAudit</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~getAllAudits">getAllAudits</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~getOneAudit">getOneAudit</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~updateAudit">updateAudit</a></li></ul></li><li><a href="Controllers.module_items.html">items</a><ul class='methods'><li data-type='method'><a href="Controllers.module_items.html#~addItem">addItem</a></li><li data-type='method'><a href="Controllers.module_items.html#~deleteItem">deleteItem</a></li><li data-type='method'><a href="Controllers.module_items.html#~getAllItems">getAllItems</a></li><li data-type='method'><a href="Controllers.module_items.html#~getOneItem">getOneItem</a></li><li data-type='method'><a href="Controllers.module_items.html#~updateItem">updateItem</a></li></ul></li><li><a href="Controllers.module_pedido_item.html">pedido_item</a><ul class='methods'><li data-type='method'><a href="Controllers.module_pedido_item.html#~addOrderSchema">addOrderSchema</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~deleteOrderitem">deleteOrderitem</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~getAllOrdersItems">getAllOrdersItems</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~getOneOrderitem">getOneOrderitem</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~updateOrderItem">updateOrderItem</a></li></ul></li><li><a href="Controllers.module_pedidos.html">pedidos</a><ul class='methods'><li data-type='method'><a href="Controllers.module_pedidos.html#~addOrder">addOrder</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~deleteOrder">deleteOrder</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~getAllOrders">getAllOrders</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~getOneOrder">getOneOrder</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~updateOrder">updateOrder</a></li></ul></li><li><a href="Controllers.module_proceso_defecto.html">proceso_defecto</a><ul class='methods'><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~addProcessDefect">addProcessDefect</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~deleteProcessDefect">deleteProcessDefect</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~getAllProcessesDefects">getAllProcessesDefects</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~getOneProcessDefect">getOneProcessDefect</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~updateProcessDefect">updateProcessDefect</a></li></ul></li><li><a href="Controllers.module_tecnologias.html">tecnologias</a><ul class='methods'><li data-type='method'><a href="Controllers.module_tecnologias.html#~addTechnology">addTechnology</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~deleteTechnology">deleteTechnology</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~getAllTechnologies">getAllTechnologies</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~getOneTechnology">getOneTechnology</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~updateTechnology">updateTechnology</a></li></ul></li><li><a href="Controllers.module_usuarios.html">usuarios</a><ul class='methods'><li data-type='method'><a href="Controllers.module_usuarios.html#~addUser">addUser</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~deleteUser">deleteUser</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~getAllUsers">getAllUsers</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~getOneUser">getOneUser</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~updateUser">updateUser</a></li></ul></li><li><a href="module-Middleware.html">Middleware</a><ul class='methods'><li data-type='method'><a href="module-Middleware.html#.adminRequired">adminRequired</a></li><li data-type='method'><a href="module-Middleware.html#.userRequired">userRequired</a></li><li data-type='method'><a href="module-Middleware.html#.validateSchema">validateSchema</a></li></ul></li><li><a href="module-Models.html">Models</a></li><li><a href="module-Schemas.html">Schemas</a></li></ul><h3>Global</h3><ul><li><a href="global.html#auditQuery">auditQuery</a></li><li><a href="global.html#crateAccesToken">crateAccesToken</a></li><li><a href="global.html#customersQuery">customersQuery</a></li><li><a href="global.html#defectsQuery">defectsQuery</a></li><li><a href="global.html#itemsQuery">itemsQuery</a></li><li><a href="global.html#login">login</a></li><li><a href="global.html#logout">logout</a></li><li><a href="global.html#oiQuery">oiQuery</a></li><li><a href="global.html#orders">orders</a></li><li><a href="global.html#pdQuery">pdQuery</a></li><li><a href="global.html#processQuery">processQuery</a></li><li><a href="global.html#removeImage">removeImage</a></li><li><a href="global.html#sequelize">sequelize</a></li><li><a href="global.html#tables">tables</a></li><li><a href="global.html#technologiesQuery">technologiesQuery</a></li><li><a href="global.html#uploadImage">uploadImage</a></li><li><a href="global.html#usersQuery">usersQuery</a></li><li><a href="global.html#verify">verify</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">controllers/aql_defectos_mayores.controller.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import aql from "../models/aql_defectos_mayores.model.js"
+
+/**
+ * @module Controllers.AQL_defectos_mayores
+ */
+
+/**
+ * Controller to obtain all `AQL_defectos_mayores` records.
+ * @function getAql
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} The `getAql` function is returning a JSON response containing the data fetched from the
+ * `aql` collection in ascending order based on the `IDaql` field. If there is an error during the
+ * process, it will return a 500 status with an error message indicating an internal server error.
+ * See object structure {@link module:Models.AQL_defectos_mayores [AQL_defectos_mayores]}
+ */
+export const getAql = async (req, res) => {
+    try {
+        // Try to get all AQL records, sorted by IDaql in ascending order.
+        const dataAql = await aql.findAll({
+            order: [["IDaql", "ASC"]]
+        });
+        // If the query is successful, returns the `AQL_defectos_mayores` records as a JSON response.
+        return res.json(dataAql);
+    } catch (error) {
+        // If there is an error in the query, it prints an error message to the console and returns an error message.
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error." });
+    }
+}
+
+
+/**
+ * Controller to obtain a record by IDaql of `AQL_defectos_mayores`.
+ * @function getOneAql
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Object>} The `getOneAql` function is returning either a JSON response with the found AQL record if
+ * it exists, or a JSON response with an error message if the record does not exist or if there was an
+ * internal server error.
+ * See object structure {@link module:Models.AQL_defectos_mayores [AQL_defectos_mayores]}
+ */
+export const getOneAql = async (req, res) => {
+    try {
+        // Try to get the record by IDaql.
+        const oneAql = await aql.findByPk(req.params.IDaql);
+        // If the record does not exist, returns error 404 - This record does not exist
+        if(!oneAql) {
+            return res.status(404).json({error: "This record does not exist."});
+        }
+        // If the query is successful, returns the `AQL_defectos_mayores` record as a JSON response.
+        return res.json(oneAql)
+    } catch (error) {
+        // If there is an error in the query, it prints an error message to the console and returns an error message.
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error." });
+    }
+}
+
+/**
+ * Controller to add a new `AQL_defectos_mayores` record.
+ * @function addAql
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Object>} JSON response with the new AQL record if creation is 
+ * successful, or an error message if creation fails.
+ * See the object structure {@link module:Models.AQL_defectos_mayores [AQL_defectos_mayores]}
+*/
+export const addAql = async (req, res) => {
+    const {
+        minimo, 
+        maximo, 
+        muestra_inspeccion_reducida, 
+        muestra_inspeccion_normal, 
+        muestra_inspeccion_severa
+    } = req.body;
+
+    try {
+        // Attempt to create a new `AQL_defectos_mayores` record with the provided data.
+        const newAql = await aql.create({
+            minimo, 
+            maximo, 
+            muestra_inspeccion_reducida, 
+            muestra_inspeccion_normal, 
+            muestra_inspeccion_severa
+        });
+         // If the creation is successful, return the new `AQL_defectos_mayores` record as a JSON response.
+        return res.json(newAql);
+    } catch (error) {
+        // If there is an error in the creation, prints an error message to the console and returns an error message.
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error." });
+    }
+}
+
+
+/**
+ * Controller to update a record by IDaql of `AQL_defectos_mayores`
+ * @function updateAql
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Number>>} The `updateAql` function is returning a JSON response containing an array with the number of records affected if
+ * the update operation is successful. If there is an error during the update operation, it will return
+ * a 500 status with a JSON object containing an error message indicating that there was an internal
+ * server error.
+ */
+export const updateAql = async (req, res) => {
+    try {
+        // Attempt to update the record with the new data.
+        const uAql = await aql.update(req.body, {where: {IDaql: req.params.IDaql}});
+        // If the update is successful, returns an array with the number of affected rows as a JSON response.
+        return res.json(uAql);
+    } catch (error) {
+        // If there is an error in the update, prints an error message to the console and returns an error message
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error." });
+    }
+}
+
+/**
+ * Controller to delete an `AQL_defectos_mayores` record.
+ * @function deleteAql
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Object>} JSON response with a success message if the deletion is successful, or an error 
+ * message if the deletion fails.
+ */
+export const deleteAql = async(req, res) => {
+    try {
+        // Attempt to delete the `AQL_defectos_mayores` record with the specified IDaql
+        await aql.destroy({where: {IDaql: req.params.IDaql} });
+        // If the deletion is successful, a success message is returned.
+        return res.status(200).json({ message: `Record ${req.params.IDaql} deleted.`});
+    } catch (error) {
+        // If there is an error in the deletion, it prints an error message on the console and returns an error message
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error." });
+    }
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.3</a> on Fri Jul 26 2024 12:09:20 GMT-0600 (hora estándar central) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>controllers/search.controller.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="Controllers.module_AQL_defectos_mayores.html">AQL_defectos_mayores</a><ul class='methods'><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~addAql">addAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~deleteAql">deleteAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~getAql">getAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~getOneAql">getOneAql</a></li><li data-type='method'><a href="Controllers.module_AQL_defectos_mayores.html#~updateAql">updateAql</a></li></ul></li><li><a href="Controllers.module_auditoria_del_proceso.html">auditoria_del_proceso</a><ul class='methods'><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~addProcess">addProcess</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~deleteProcess">deleteProcess</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~getAllProcesses">getAllProcesses</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~getOneProcess">getOneProcess</a></li><li data-type='method'><a href="Controllers.module_auditoria_del_proceso.html#~updateProcess">updateProcess</a></li></ul></li><li><a href="Controllers.module_clientes.html">clientes</a><ul class='methods'><li data-type='method'><a href="Controllers.module_clientes.html#~addCustomer">addCustomer</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~deleteCustomer">deleteCustomer</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~getAllCustomers">getAllCustomers</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~getOneCustomer">getOneCustomer</a></li><li data-type='method'><a href="Controllers.module_clientes.html#~updateCustomer">updateCustomer</a></li></ul></li><li><a href="Controllers.module_defectos.html">defectos</a><ul class='methods'><li data-type='method'><a href="Controllers.module_defectos.html#~addDefect">addDefect</a></li><li data-type='method'><a href="Controllers.module_defectos.html#~getAllDefects">getAllDefects</a></li><li data-type='method'><a href="Controllers.module_defectos.html#~getOneDefect">getOneDefect</a></li><li data-type='method'><a href="Controllers.module_defectos.html#~updateDefect">updateDefect</a></li></ul></li><li><a href="Controllers.module_formato_auditoria.html">formato_auditoria</a><ul class='methods'><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~addAudit">addAudit</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~deleteAudit">deleteAudit</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~getAllAudits">getAllAudits</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~getOneAudit">getOneAudit</a></li><li data-type='method'><a href="Controllers.module_formato_auditoria.html#~updateAudit">updateAudit</a></li></ul></li><li><a href="Controllers.module_items.html">items</a><ul class='methods'><li data-type='method'><a href="Controllers.module_items.html#~addItem">addItem</a></li><li data-type='method'><a href="Controllers.module_items.html#~deleteItem">deleteItem</a></li><li data-type='method'><a href="Controllers.module_items.html#~getAllItems">getAllItems</a></li><li data-type='method'><a href="Controllers.module_items.html#~getOneItem">getOneItem</a></li><li data-type='method'><a href="Controllers.module_items.html#~updateItem">updateItem</a></li></ul></li><li><a href="Controllers.module_pedido_item.html">pedido_item</a><ul class='methods'><li data-type='method'><a href="Controllers.module_pedido_item.html#~addOrderSchema">addOrderSchema</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~deleteOrderitem">deleteOrderitem</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~getAllOrdersItems">getAllOrdersItems</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~getOneOrderitem">getOneOrderitem</a></li><li data-type='method'><a href="Controllers.module_pedido_item.html#~updateOrderItem">updateOrderItem</a></li></ul></li><li><a href="Controllers.module_pedidos.html">pedidos</a><ul class='methods'><li data-type='method'><a href="Controllers.module_pedidos.html#~addOrder">addOrder</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~deleteOrder">deleteOrder</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~getAllOrders">getAllOrders</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~getOneOrder">getOneOrder</a></li><li data-type='method'><a href="Controllers.module_pedidos.html#~updateOrder">updateOrder</a></li></ul></li><li><a href="Controllers.module_proceso_defecto.html">proceso_defecto</a><ul class='methods'><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~addProcessDefect">addProcessDefect</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~deleteProcessDefect">deleteProcessDefect</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~getAllProcessesDefects">getAllProcessesDefects</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~getOneProcessDefect">getOneProcessDefect</a></li><li data-type='method'><a href="Controllers.module_proceso_defecto.html#~updateProcessDefect">updateProcessDefect</a></li></ul></li><li><a href="Controllers.module_tecnologias.html">tecnologias</a><ul class='methods'><li data-type='method'><a href="Controllers.module_tecnologias.html#~addTechnology">addTechnology</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~deleteTechnology">deleteTechnology</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~getAllTechnologies">getAllTechnologies</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~getOneTechnology">getOneTechnology</a></li><li data-type='method'><a href="Controllers.module_tecnologias.html#~updateTechnology">updateTechnology</a></li></ul></li><li><a href="Controllers.module_usuarios.html">usuarios</a><ul class='methods'><li data-type='method'><a href="Controllers.module_usuarios.html#~addUser">addUser</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~deleteUser">deleteUser</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~getAllUsers">getAllUsers</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~getOneUser">getOneUser</a></li><li data-type='method'><a href="Controllers.module_usuarios.html#~updateUser">updateUser</a></li></ul></li><li><a href="module-Middleware.html">Middleware</a><ul class='methods'><li data-type='method'><a href="module-Middleware.html#.adminRequired">adminRequired</a></li><li data-type='method'><a href="module-Middleware.html#.userRequired">userRequired</a></li><li data-type='method'><a href="module-Middleware.html#.validateSchema">validateSchema</a></li></ul></li><li><a href="module-Models.html">Models</a></li><li><a href="module-Schemas.html">Schemas</a></li></ul><h3>Global</h3><ul><li><a href="global.html#auditQuery">auditQuery</a></li><li><a href="global.html#crateAccesToken">crateAccesToken</a></li><li><a href="global.html#customersQuery">customersQuery</a></li><li><a href="global.html#defectsQuery">defectsQuery</a></li><li><a href="global.html#itemsQuery">itemsQuery</a></li><li><a href="global.html#login">login</a></li><li><a href="global.html#logout">logout</a></li><li><a href="global.html#oiQuery">oiQuery</a></li><li><a href="global.html#orders">orders</a></li><li><a href="global.html#pdQuery">pdQuery</a></li><li><a href="global.html#processQuery">processQuery</a></li><li><a href="global.html#removeImage">removeImage</a></li><li><a href="global.html#sequelize">sequelize</a></li><li><a href="global.html#tables">tables</a></li><li><a href="global.html#technologiesQuery">technologiesQuery</a></li><li><a href="global.html#uploadImage">uploadImage</a></li><li><a href="global.html#usersQuery">usersQuery</a></li><li><a href="global.html#verify">verify</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">controllers/search.controller.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import { Op } from "sequelize";
+import sequelize from "../conexion.js";
+import aql from "../models/aql_defectos_mayores.model.js";
+import process from "../models/auditoria_del_proceso.model.js";
+import customers from "../models/clientes.model.js";
+import defects from "../models/defectos.model.js";
+import audit_format from "../models/formato_auditoria.model.js";
+import items from "../models/items.model.js";
+import order_item from "../models/pedido_item.model.js";
+import orders from "../models/pedidos.model.js";
+import process_defect from "../models/proceso_defecto.model.js";
+import technologies from "../models/tecnologias.model.js";
+import users from "../models/usuarios.model.js";
+
+// Funciones para buscar registros por tabla
+
+/**
+ * Controller to search for records in the `auditoria_del_proceso` table matching the specified fields 
+ * @function processQuery
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} JSON response with the information of the records where the value of 
+ * their fields match the search text if the query is successful, or an error message if the 
+ * query fails.
+ */
+export const processQuery = async (req, res) => {
+    const text = req.query.text;
+    try {
+        const processSearch = await process.findAll({
+            attributes: { exclude: "IDauditoria" },
+            include: {
+                model: audit_format,
+                attributes: [ "IDauditoria", "PO" ]
+            },
+            order: [["IDproceso", "ASC"]],
+            where: {
+            [Op.or]: [
+                {pnc: { [Op.like]: `%${text}%` }},
+                {fecha_apertura: { [Op.like]: `%${text}%` }},
+                {cantidad_rechazada: { [Op.like]: `%${text}%` }},
+                {defectos_encontrados: { [Op.like]: `%${text}%` }},
+                {operario: { [Op.like]: `%${text}%` }},
+                {accion: { [Op.like]: `%${text}%` }},
+                {aprobado_por: { [Op.like]: `%${text}%` }},
+                {comentario_accion: { [Op.like]: `%${text}%` }},
+                {cantidad_descarte: { [Op.like]: `%${text}%` }},
+                {cantidad_aceptada: { [Op.like]: `%${text}%` }},
+                {observacion: { [Op.like]: `%${text}%` }},
+                {fecha_cierre: { [Op.like]: `%${text}%` }},
+                {re_auditoria: { [Op.like]: `%${text}%` }},
+                {estado_re_auditoria: { [Op.like]: `%${text}%` }},
+                {"$formato_auditorium.PO$": { [Op.like]: `%${text}%`  }}
+            ]
+        }});
+        return res.json(processSearch)
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error" });
+    }
+}
+
+/**
+ * Controller to search for records in the `clientes` table matching the specified fields 
+ * @function customersQuery
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} JSON response with the information of the records where the value of 
+ * their fields match the search text if the query is successful, or an error message if the 
+ * query fails.
+ */
+export const customersQuery = async (req, res) => {
+    const text = req.query.text;
+    try {
+        const customersSearch = await customers.findAll({ where: {
+            [Op.or]: [
+                {codigoCliente: { [Op.like]: `%${text}%` }},
+                {nombre: { [Op.like]: `%${text}%` }}
+            ]
+        }});
+        return res.json(customersSearch);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error" });
+    }
+}
+
+/**
+ * Controller to search for records in the `defectos` table matching the specified fields 
+ * @function defectsQuery
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} JSON response with the information of the records where the value of 
+ * their fields match the search text if the query is successful, or an error message if the 
+ * query fails.
+ */
+export const defectsQuery = async (req, res) => {
+    const text = req.query.text;
+    try {
+        const defectsSearch = await defects.findAll({ where: {
+            [Op.or]: [
+                {codigoDefecto: { [Op.like]: `%${text}%` }},
+                {nombre: { [Op.like]: `%${text}%` }},
+                {criterio_aceptacion: { [Op.like]: `%${text}%` }}
+            ]
+        }});
+        return res.json(defectsSearch);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error" });
+    }
+}
+
+/**
+ * Controller to search for records in the `formato_auditoria` table matching the specified fields 
+ * @function auditQuery
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} JSON response with the information of the records where the value of 
+ * their fields match the search text if the query is successful, or an error message if the 
+ * query fails.
+ */
+export const auditQuery = async (req, res) => {
+    const text = req.query.text;
+    try {
+        const auditSearch = await audit_format.findAll({
+            /*Es necesario especificar la tabla en la funcion timediff porque usuarios tambien 
+            tiene los campos hora_inicio y hora_fin por lo que sequelize lo interpreta como ambiguo. */
+            attributes: [ "IDauditoria", "PO", "codigoPedido", "codigoItem", "fecha_auditoria", "hora_inicio",
+                "hora_fin", [sequelize.fn("timediff", sequelize.col("formato_auditoria.hora_fin"), 
+                sequelize.col("formato_auditoria.hora_inicio")), "tiempo"], "tipo_auditoria", 
+                "alertas_proceso", "cantidad_lote", "estado" 
+            ],
+            include: [
+                { model: aql, as: "aql", attributes: [ "muestra_inspeccion_normal" ] },
+                { model: users, attributes: [ "nombre"] },
+                { model: technologies, attributes: [ "nombre" ] }
+            ],
+            where: {
+                [Op.or]: [
+                    {PO: { [Op.like]: `%${text}%` }},
+                    {codigoPedido: { [Op.like]: `%${text}%` }},
+                    {codigoItem: { [Op.like]: `%${text}%` }},
+                    {"$usuario.nombre$": { [Op.like]: `%${text}%` }},
+                    {"$tecnologia.nombre$": { [Op.like]: `%${text}%` }},
+                    {alertas_proceso: { [Op.like]: `%${text}%` }},
+                    {fecha_auditoria: { [Op.like]: `%${text}%`}}
+                ]
+            }
+        });
+        return res.json(auditSearch);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error" });
+    }
+}
+
+/**
+ * Controller to search for records in the `pedidos` table matching the specified fields 
+ * @function orders
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} JSON response with the information of the records where the value of 
+ * their fields match the search text if the query is successful, or an error message if the 
+ * query fails.
+ */
+export const ordersQuery = async (req, res) => {
+    const text = req.query.text;
+    try {
+        const ordersSearch = await orders.findAll( { 
+            attributes: ["codigoPedido", "descripcion", "codigoCliente", "imagen"],
+            include: [ {model: technologies, attributes: [ "nombre" ] } ],
+            where: {
+                [Op.or]: [
+                    {codigoPedido: { [Op.like]: `%${text}%` }},
+                    {"$tecnologia.nombre$": { [Op.like]: `%${text}%` }},
+                    {codigoCliente: { [Op.like]: `%${text}%` }}
+                ]
+            }
+        });
+        return res.json(ordersSearch);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error" });
+    }
+}
+
+/**
+ * Controller to search for records in the `items` table matching the specified fields 
+ * @function itemsQuery
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} JSON response with the information of the records where the value of 
+ * their fields match the search text if the query is successful, or an error message if the 
+ * query fails.
+ */
+export const itemsQuery = async (req, res) => {
+    const text = req.query.text;
+    try {
+        const itemsSearch = await items.findAll({
+            attributes: ["codigoItem", "descripcion", "imagen"],
+            include: [{
+                model: technologies,
+                attributes: [ "nombre" ]
+            }],
+            where: { 
+                [Op.or]: [
+                    {codigoItem: { [Op.like]: `%${text}%` }},
+                    {"$tecnologia.nombre$": { [Op.like]: `%${text}%` }}
+                ]
+            }
+        });
+        return res.json(itemsSearch);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error."})
+    }
+}
+
+/**
+ * Controller to search for records in the `tecnologias` table matching the specified fields 
+ * @function technologiesQuery
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} JSON response with the information of the records where the value of 
+ * their fields match the search text if the query is successful, or an error message if the 
+ * query fails.
+ */
+export const technologiesQuery = async (req, res) => {
+    const text = req.query.text;
+    try {
+        const technologiesSearch = await technologies.findAll({ where: {
+            nombre: { [Op.like]: `%${text}%` }
+        }});
+        return res.json(technologiesSearch);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error" });
+    }
+}
+
+/**
+ * Controller to search for records in the `usuarios` table matching the specified fields 
+ * @function usersQuery
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} JSON response with the information of the records where the value of 
+ * their fields match the search text if the query is successful, or an error message if the 
+ * query fails.
+ */
+export const usersQuery = async (req, res) => {
+    const text = req.query.text;
+    console.log(text)
+    try {
+        const usersSearch = await users.findAll({
+            attributes: { exclude: "contraseña" },
+            where: {
+                [Op.or]: [
+                    {nombre: { [Op.like]: `%${text}%` }},
+                    {usuario: { [Op.like]: `%${text}%` }}
+                ]
+            }
+        });
+        return res.json(usersSearch);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error" });
+    }
+}
+
+/**
+ * Controller to search for records in the `pedido_item` table matching the specified fields 
+ * @function oiQuery
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} JSON response with the information of the records where the value of 
+ * their fields match the search text if the query is successful, or an error message if the 
+ * query fails.
+ */
+export const oiQuery = async (req, res) => {
+    const text = req.query.text;
+    try {
+        const oiSearch = await order_item.findAll({ 
+            attributes: { exclude: "codigoItem" },
+            include: [ { 
+                model: items, 
+                attributes: [ "codigoItem" ],
+                include: [ { model: technologies, attributes: [ "nombre" ] }]
+            } ],
+            where: {
+            [Op.or]: [
+                {codigoPedido: { [Op.like]: `%${text}%` }},
+                {cantidad: { [Op.like]: `%${text}%` }},
+                {"$item.codigoItem$": { [Op.like]: `%${text}%` }},
+                {"$item.tecnologia.nombre$": { [Op.like]: `%${text}%` }}
+            ]}
+        });
+        return res.json(oiSearch);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error" });
+    }
+}
+
+/**
+ * Controller to search for records in the `proceso_defecto` table matching the specified fields 
+ * @function pdQuery
+ * @async
+ * @param {any} req - The `req` parameter represents the HTTP request object, which contains 
+ * information about the incoming request such as headers, parameters, and body
+ * data. It is commonly used to access data sent by the client to the server.
+ * @param {any} res - The `res` parameter in the code snippet refers to the response object in Node.js. It is
+ * used to send a response back to the client making the request. In this case, the `res` object is
+ * used to send a JSON response containing the data fetched from the database or an error message.
+ * @returns {Promise&lt;Array&lt;Object>>} JSON response with the information of the records where the value of 
+ * their fields match the search text if the query is successful, or an error message if the 
+ * query fails.
+ */
+export const pdQuery = async (req, res) => {
+    const text = req.query.text;
+    try {
+        const pdSearch = await process_defect.findAll({ where: {
+            [Op.or]: [
+                {codigoDefecto: { [Op.like]: `%${text}%` }},
+                {IDproceso: { [Op.like]: `%${text}%` }}
+            ]
+        },
+        order: [["IDproceso", "ASC"]]
+    });
+        return res.json(pdSearch);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ error: "There was an internal server error" });
+    }
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.3</a> on Fri Jul 26 2024 12:09:33 GMT-0600 (hora estándar central) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>
